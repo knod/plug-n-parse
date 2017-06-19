@@ -1,0 +1,26 @@
+{
+  "name": "@knod/plug-n-parse",
+  "version": "1.0.0",
+  "description": "Monad to transform an element full of text into whatever it needs to be based on plug-and-play functions you provide",
+  "main": "dist/plug-n-parse.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/knod/plug-n-parse.git"
+  },
+  "keywords": [
+    "parse",
+    "ticker-text"
+  ],
+  "author": "knod",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/knod/plug-n-parse/issues"
+  },
+  "homepage": "https://github.com/knod/plug-n-parse#readme",
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}
