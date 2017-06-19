@@ -88,12 +88,13 @@
 		};  // End ppar.smallSample()
 
 
-		ppar.parse = function ( input ) {
+		ppar.parse = function ( input, debug ) {
 	    /* ( DOM Node || Str ) -> [Str]
 	    * 
 	    * Given an DOM node or string of text, returns a list of sentences.
 	    * What it returns depends heavily on
 	    */
+	    	if ( debug ) { ppar.debug = debug; }
 	    	var rawText = '';
 
 	    	if ( typeof input === 'string' ) {
